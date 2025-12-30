@@ -5,6 +5,7 @@ A snaptap script for Linux written in Python.
 SnapTap-Linux
 
 A lightweight Python-based SOCD (Simultaneous Opposite Cardinal Direction) cleaner for Linux. This script brings "Snap Tap" functionality to any keyboard (specifically tested on the Razer Huntsman Mini) by intercepting raw input events at the kernel level.
+
 🚀 Features
 
     Zero-Latency Logic: Intercepts evdev events directly.
