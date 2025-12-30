@@ -1,3 +1,6 @@
+# Copyright (c) 2025 SnapTap-Linux Contributors
+# Licensed under the MIT License
+
 import evdev
 from evdev import ecodes
 import sys
