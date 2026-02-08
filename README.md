@@ -6,7 +6,7 @@ SnapTap-Linux
 
 A lightweight Python-based SOCD (Simultaneous Opposite Cardinal Direction) cleaner for Linux. This script brings "Snap Tap" functionality to any keyboard (specifically tested on the Razer Huntsman Mini) by intercepting raw input events at the kernel level.
 
--
+
 
 🚀 Features
 
@@ -18,7 +18,7 @@ A lightweight Python-based SOCD (Simultaneous Opposite Cardinal Direction) clean
 
     Hardware Agnostic: Works on any keyboard by pointing to the correct /dev/input/event* node.
 
--
+
 
 📋 Prerequisites
 
@@ -34,7 +34,7 @@ For Debian / Ubuntu:
 
 sudo apt install python3-evdev
 
--
+
 
 🛠️ Setup & Usage
 1. Identify your Keyboard
@@ -60,7 +60,7 @@ The script requires root privileges to "grab" the device and create a virtual in
 
 sudo python snaptap.py
 
--
+
 
 🐧 Autostart (Hyprland / Sway)
 
@@ -68,7 +68,7 @@ To run this automatically on login with a graphical password prompt, add this to
 
 exec-once = pkexec python /path/to/snaptap.py
 
--
+
 
 ⚠️ Important Disclaimer
 
